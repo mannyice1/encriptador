@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Callenge #1</title>
+</head>
+<body>
+    
+        <header>
+            <div class="logo">
+                <img src="/img/Logo.png" alt="logo.alura" class="logoimg">
+                <h1 class="tittle">Encriptador y Desencriptador</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="left">
+                <textarea class="text-input" id="inputTexto" placeholder="Escriba su texto aqui" autofocus></textarea>
+                    <ion-icon name="alert-circle-outline" class="icon"></ion-icon>
+                    <p class="text-warning">Solo minusculas y sin acentos</p>
+            </div>
+
+            <div class="right">
+                <div class="right2">
+                    <img src="/img/Muñeco.png" alt="Muñeco" id="right-img">
+                    <h1 id="msj">No se ha encriptado ni desencriptado texto</h1>
+                    <textarea name="name" id="msj2" cols="30" rows="10">Ingrese el texto que desees desencriptar</textarea>
+                </div>
+            </div>
+
+            <div class="left-button">
+                <button type="button" id="btn-encriptar">Encriptar</button>
+                <button type="button" id="btn-desencriptar">Desencriptar</button>
+            </div>
+
+            <div class="right-button">
+                <button type="button" id="btn-copiar">Copiar</button>
+            </div>
+        </div>
+    <footer>
+        Todos los derechos reservados Spencer Bahamondes
+    </footer>
+   
+    <script src="/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
